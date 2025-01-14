@@ -1,0 +1,17 @@
+{
+  "sidebar": {
+    "links": {
+      "dashboard": "Dashboard",
+      "email": "Email",
+      "inbox": "Inbox",
+      "email_compose": "Email Compose",
+      "doctor": "Doctor",
+      "all_doctor": "All Doctor",
+      "add_doctor": "Add Doctor",
+      "profile_doctor": "Profile Doctor",
+      "edit_doctor": "Edit Doctor",
+      "calendar": "Calendar",
+      "chat": "Chat"
+    }
+  }
+}

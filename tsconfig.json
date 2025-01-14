@@ -3,5 +3,15 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@layout": ["./src/layout"],
+      "@components": ["./src/components"],
+      "@icons": ["./src/assets/icons"],
+      "@context": ["./src/context"],
+      "@data": ["./src/data"]
+    }
+  }
 }
