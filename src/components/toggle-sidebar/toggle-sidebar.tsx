@@ -1,7 +1,7 @@
 import { use } from "react";
 import { ToggleSidebarContext } from "@context/toggle-sidebar"
 // import icon
-import { MoreIcon } from "@icons/more-icon";
+import { ArrowLeftIcon } from "@icons/arrow-left.icon";
 
 export const ToggleSidebar: React.FC = () => {
   // --- use context ----
@@ -11,7 +11,7 @@ export const ToggleSidebar: React.FC = () => {
   // ---- return jsx ----
   return (
     <>
-      <MoreIcon className="cursor-pointer text-white" />
+      <ArrowLeftIcon className="cursor-pointer text-black" />
     </>
   );
 };

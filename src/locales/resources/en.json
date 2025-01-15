@@ -13,5 +13,11 @@
       "calendar": "Calendar",
       "chat": "Chat"
     }
+  },
+  "profile": {
+    "profile": "Profile",
+    "profile_edit": "Edit Profile",
+    "account_setting": "Account Setting",
+    "logout": "Logout"
   }
 }
