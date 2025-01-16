@@ -15,7 +15,7 @@ export const Profile: React.FC = () => {
           <p className="text-sm text-green-600">Availabel</p>
         </div>
       </div>
-      <div className="flex flex-col gap-y-1 w-max p-2 border rounded-md border-gray-200 absolute top-[140%] right-0 opacity-0 invisible duration-200 ease-in-out peer-hover:visible peer-hover:opacity-100 peer-hover:top-full hover:visible hover:opacity-100 hover:top-full">
+      <div className="flex flex-col gap-y-1 w-max p-2 border rounded-md bg-white border-gray-200 absolute top-[140%] right-0 opacity-0 invisible duration-200 ease-in-out peer-hover:visible peer-hover:opacity-100 peer-hover:top-full hover:visible hover:opacity-100 hover:top-full">
         <Link
           to="/profile"
           className="duration-200 ease-in-out p-2 rounded-md hover:bg-gray-200 text-sm"

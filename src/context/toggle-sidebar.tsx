@@ -1,24 +1,19 @@
 import { createContext, useState } from "react";
+import { ToggleType, ToggleProviderType } from "../types/context/toggle-sidebar.type";
 
-type ToggleProviderType = {
-  children: React.ReactNode;
-};
+const ToggleSidebarContext = createContext<ToggleType>({
+  isOpenSidebar: true,
+  handlerToggle: () => {},
+});
 
-type ToggleType = {
-  isOpenSidebar: boolean;
-  handlerToggle: () => void;
-};
-
-export const ToggleSidebarContext = createContext<ToggleType | null>(null);
-
-export const ToggleSidebarContextProvider = ({
+const ToggleSidebarContextProvider = ({
   children,
 }: ToggleProviderType) => {
   // --- state ----
   const [isOpenSidebar, setIsOpenSidebar] = useState(false);
 
   // ---- toggle handler ----
-  const handlerToggle = () => {
+  const handlerToggle = () => {    
     setIsOpenSidebar(!isOpenSidebar);
   };
   // ---- return provider ----
@@ -28,3 +23,5 @@ export const ToggleSidebarContextProvider = ({
     </ToggleSidebarContext>
   );
 };
+
+export { ToggleSidebarContext, ToggleSidebarContextProvider }

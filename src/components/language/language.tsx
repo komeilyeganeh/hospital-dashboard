@@ -16,7 +16,7 @@ export const Language: React.FC = () => {
         <img src={GermanyImage} alt="flag image" />
         <span className="text-sm">Germany</span>
       </div>
-      <div className="flex flex-col gap-y-1 w-32 p-2 border rounded-md border-gray-300 absolute top-[140%] right-0 opacity-0 invisible duration-200 ease-in-out peer-hover:visible peer-hover:opacity-100 peer-hover:top-full hover:visible hover:opacity-100 hover:top-full">
+      <div className="flex flex-col gap-y-1 w-32 p-2 border rounded-md bg-white border-gray-300 absolute top-[140%] right-0 opacity-0 invisible duration-200 ease-in-out peer-hover:visible peer-hover:opacity-100 peer-hover:top-full hover:visible hover:opacity-100 hover:top-full">
         {Languages?.map((lng: { id: number; img: string; title: string }) => (
           <div
             key={lng.id}
