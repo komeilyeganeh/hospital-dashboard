@@ -8,6 +8,7 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@page": ["./src/pages"],
       "@layout": ["./src/layout"],
       "@components": ["./src/components"],
       "@icons": ["./src/assets/icons"],

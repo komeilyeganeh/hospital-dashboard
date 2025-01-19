@@ -6,3 +6,4 @@ export * from "./header/header";
 export * from "./language/language";
 export * from "./full-screen/full-screen";
 export * from "./profile/profile";
+export * from "./footer/footer";

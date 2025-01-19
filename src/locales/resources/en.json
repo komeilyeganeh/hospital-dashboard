@@ -19,5 +19,27 @@
     "profile_edit": "Edit Profile",
     "account_setting": "Account Setting",
     "logout": "Logout"
+  },
+  "dashboard": {
+    "summary": {
+      "doctors": "Doctors",
+      "nurses": "Nurses",
+      "patients": "Patients",
+      "pharmacists": "Pharmacists"
+    },
+    "slider": {
+      "hospital_staff": "Hospital Staff"
+    }
+  },
+  "hospital_staff": {
+      "surgeon": "Surgeon",
+      "doctor": "Doctor",
+      "ot_assistent": "OT Assistent",
+      "nurse": "Nurse"
+  },
+  "footer": {
+    "privacy_link": "Privacy Policy",
+    "privacy_text": "Terms Of Use",
+    "copyright": "Copyright 2025, All Rights Reserved."
   }
 }

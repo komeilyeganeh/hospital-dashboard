@@ -10,8 +10,8 @@ export const Sidebar: React.FC = () => {
   // ---- return jsx ----
   return (
     <div
-      className={`absolute top-0 left-0 h-full w-64 p-4 duration-300 ease-in-out ${
-        isOpenSidebar ? "" : "-left-full opacity-0 invisible"
+      className={`absolute top-0 h-full w-64 p-4 duration-300 ease-in-out ${
+        isOpenSidebar ? "left-0 opacity-100 visible" : "-left-full opacity-0 invisible"
       }`}
     >
       <SidebarHeader />
